@@ -16,7 +16,7 @@ API_KEY = os.getenv("LAB4_API_KEY")
 
 # Function to verify API Key for request authorization
 def validate_api_key(request: Request):
-    provided_key = request.headers.get("G-C-P-KEY")
+    provided_key = request.query_params.get("G-C-P-KEY") or request.headers.get("G-C-P-KEY")
     if provided_key != API_KEY:
         raise HTTPException(status_code=401, detail="Invalid API Key")
     return provided_key
