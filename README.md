@@ -129,6 +129,4 @@ curl -X DELETE "http://127.0.0.1:8000/apiv2/1" -H "G-C-P-KEY: your_api_key_here"
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-This README provides a basic overview of the FastAPI Task Management API. For more detailed information, refer to the code and comments in the main.py file.
