@@ -1,4 +1,4 @@
-# FastAPI Task Management API
+# Advanced API Implementation
 
 This is a simple FastAPI-based Task Management API that allows you to create, read, update, and delete tasks. The API is versioned, with two versions (v1 and v2) available. Each version has its own set of endpoints for managing tasks.
 
@@ -24,15 +24,13 @@ python-dotenv (for loading environment variables)
 ## Clone the repository:
 
 ``` bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/GerCerv/Laboratory-4.git
 ```
 
 ## Create a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
 ## Install dependencies:
